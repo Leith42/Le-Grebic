@@ -16,6 +16,5 @@ $client->on('message', function ($message) {
 });
 
 $client->login(include 'token.php');
-//var_dump($client->user->tag);
 
 $loop->run();
